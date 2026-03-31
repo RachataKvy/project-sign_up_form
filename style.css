@@ -82,8 +82,6 @@ body {
     flex-direction: column;
     gap: 1.5rem;
     max-width: 560px;
-    border-top: 1px solid #e5e7eb;
-    border-bottom: 1px solid #e5e7eb;
     padding: 2rem 0;
 }
 
@@ -98,6 +96,7 @@ body {
     flex-wrap: wrap;
     gap: 1.25rem 1.5rem;
     margin-bottom: 1.5rem;
+    box-shadow: 6px 6px 6px 1px rgb(0 0 0 / 30%);
 }
 
 .field {
@@ -146,6 +145,7 @@ input[type="password"]:invalid:not(:placeholder-shown) {
     font-size: 1rem;
     cursor: pointer;
     transition: background-color 0.2s;
+    box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 30%);
 }
 
 .btn-create:hover {
@@ -156,6 +156,7 @@ input[type="password"]:invalid:not(:placeholder-shown) {
     font-size: 0.95rem;
     color: #374151;
     margin-top: 1rem;
+    font-weight: 600;
 }
 
 .login-prompt a {
